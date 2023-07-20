@@ -6,11 +6,11 @@ import { PiUserCircleThin } from 'react-icons/pi'
 
 const Header = () => {
     return (
-        <div className='flex p-2 justify-between flex-row'>
+        <div className='flex p-2 justify-between fixed bg-white w-full top-0 flex-row'>
             <div className='mx-2 my-0 flex gap-2'>
-                <div><FiMenu size={40} className='p-2 hover:bg-[#E5E5E5] hover:rounded-full' /></div>
+                <div><FiMenu size={36} fontWeight={100} className='p-2 hover:bg-[#E5E5E5] hover:rounded-full' /></div>
                 <div className='flex'>
-                    <BsYoutube size={44} className='py-2 text-[#FF0000]' />
+                    <BsYoutube size={40} className='py-2 text-[#FF0000]' />
                     <span className='py-2'><strong>YouTube</strong><sup className='px-1'>IN</sup></span>
                 </div>
             </div>
