@@ -29,7 +29,7 @@ const Header = () => {
             </div>
             <div className='flex justify-between h-[40px]'>
                 <div className='p-2'><BsThreeDotsVertical size={20}/></div>
-                <div className='flex items-center gap-2 justify-between text-[#065FD4] hover:bg-[#DEF1FF] px-2 py-0 rounded-full border border-[#F0F0F0] hover:border-[#DEF1FF]'>
+                <div className='flex items-center justify-between text-center text-[#065FD4] hover:bg-[#DEF1FF] px-2 py-0 rounded-full border border-[#F0F0F0] hover:border-[#DEF1FF]'>
                     <PiUserCircleThin size={22} />
                     <span className='w-14 font-semibold text-xs'>Sign in</span>
                 </div>
